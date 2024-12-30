@@ -26,7 +26,7 @@ This project is released under the **CC0 (Public Domain Dedication)** license to
 - Open access to all source code and assets.
 - No restrictions on commercial or non-commercial use.
 
-## About the Foundation
+## About the 3beam Foundation
 The project is developed and maintained by Stichting 3beam based in the Netherlands. 
 This mission is to create open, educational tools that foster public understanding of astronomical phenomena. By releasing this project under CC0, we aim to promote accessibility and collaboration within the global community.
 
