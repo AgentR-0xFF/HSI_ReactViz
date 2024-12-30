@@ -41,3 +41,110 @@ For questions, feedback, or collaboration opportunities, please contact us via t
 
 ---
 This README file serves as the public documentation for the Solar ASCII Visualization project, adhering to the transparency and accessibility goals of 3beam.
+
+
+## Getting Started for Beginners
+### Local Experimental Setup (Local Folders and Files)
+1. **Check Pre-requisites:**
+   - Ensure Node.js and npm are installed:
+     ```bash
+     node -v
+     npm -v
+     ```
+     If not, install them from [Node.js Official Website](https://nodejs.org/).
+
+2. **Set Up the Project:**
+   - Create a new directory for the project:
+     ```bash
+     mkdir solar-ascii-viz
+     cd solar-ascii-viz
+     ```
+   - Initialize a new React app:
+     ```bash
+     npx create-react-app .
+     ```
+
+3. **Add the Visualization Code:**
+   - Replace the contents of `src/App.js` with the provided Solar ASCII Visualization code.
+
+4. **Run the Project Locally:**
+   - Start the development server:
+     ```bash
+     npm start
+     ```
+   - The app will open in your default browser.
+
+### Setting Up via GitHub (Educational Fork Setup)
+1. **Check Pre-requisites:**
+   - Verify Git is installed:
+     ```bash
+     git --version
+     ```
+     If not, install it from [Git Official Website](https://git-scm.com/).
+   - Ensure you have a GitHub account.
+
+2. **Fork the Repository:**
+   - Visit the public repository on GitHub.
+   - Click the "Fork" button to create your own copy.
+
+3. **Clone the Fork:**
+   - Open Terminal and clone the repository:
+     ```bash
+     git clone https://github.com/your-username/solar-ascii-viz.git
+     cd solar-ascii-viz
+     ```
+
+4. **Install Dependencies:**
+   - Run:
+     ```bash
+     npm install
+     ```
+
+5. **Run Locally:**
+   - Start the app with:
+     ```bash
+     npm start
+     ```
+
+6. **Deploy to GitHub Pages:**
+   - Install `gh-pages`:
+     ```bash
+     npm install gh-pages --save-dev
+     ```
+   - Add deployment scripts to `package.json`:
+     ```json
+     "homepage": "https://your-username.github.io/solar-ascii-viz",
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+     }
+     ```
+   - Deploy:
+     ```bash
+     npm run deploy
+     ```
+
+7. **Access the Deployed App:**
+   - Visit `https://your-username.github.io/solar-ascii-viz`.
+
+### Hybrid Setup (Using GitHub, Visual Studio Code, and Cursor on macOS)
+1. **Set Up Git and GitHub:**
+   - Follow the steps in the "Fork" section above to fork and clone the repository.
+
+2. **Install VS Code:**
+   - Download and install [Visual Studio Code](https://code.visualstudio.com/) 
+   - Add the "Prettier" and "ES7+ React/Redux/React-Native snippets" extensions to VS Code.
+
+3. **Load the Project:**
+   - Open the cloned repository in VS Code.
+
+4. **Run and Test:**
+   - Use the Terminal in VS Code to run:
+     ```bash
+     npm start
+     ```
+
+
+
+
+
